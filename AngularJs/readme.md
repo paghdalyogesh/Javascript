@@ -55,3 +55,12 @@ AngularJS provides event listener directives to handle HTML events. You can atta
 - ng-mouseleave
 - ng-mousemove
 - ng-mouseover
+
+# Data-Binding
+Developers are not responsible for manually updating HTML elements to reflect model changes. AngularJS provides its powerful data-binding mechanism to handle the synchronization of data between model and view.
+
+#### How AngularJS handle data binding
+AngularJS handle data-binding mechanism with the help of three powerful functions: $watch(), $digest() and $apply(). Most of the time AngularJS will call the $scope.$watch() and $scope.$digest() functions for you, but in some cases you may have to call these functions yourself to update new values.
+
+#### Two-way data binding
+It is used to synchronize the data between model and view. It means, any change in model will update the view and vice versa. ng-model directive is used for two-way data binding.
