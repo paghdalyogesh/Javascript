@@ -34,3 +34,22 @@ A $scope is a JavaScript object which is used for communication between controll
 
 #### $rootScope
 The $rootScope is the top-most scope. An app can have only one $rootScope which will be shared among all the components of an app. Hence it acts like a global variable. All other $scopes are children of the $rootScope.
+
+
+# Inheritance
+The $scope object used by views in AngularJS are organized into a hierarchy. There is a root scope, and the $rootScope can has one or more child scopes. Each controller has its own $scope (which is a child of the $rootScope), so whatever variables you create on $scope within controller, these variables are accessible by the view based on this controller.
+
+# Events
+AngularJS provides event listener directives to handle HTML events. You can attach an event listener to an appropriate HTML element by using one of the following AngularJS event listener directives:
+- ng-click
+- ng-dbl-click
+- ng-keydown
+- ng-keyup
+- ng-keypress
+- ng-change
+- ng-mousedown
+- ng-mouseup
+- ng-mouseenter
+- ng-mouseleave
+- ng-mousemove
+- ng-mouseover
