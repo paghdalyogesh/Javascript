@@ -60,3 +60,16 @@ Filters are used to format data before displaying it to the user. They can be us
 <p>Total Price: <span ng-bind="quantity * price | currency:'₹'"></span></p>
 <p>Full Name: <span ng-bind="firstName + ' ' + lastName | uppercase"></span></p>
 ```
+
+# Bootstrapping
+Angular initializes automatically upon DOMContentLoaded event or when the angular.js script is downloaded to the browser and the document.readyState is set to complete. At this point AngularJS looks for the ng-app directive which is the root of angular app compilation and tells about AngularJS part within DOM. When the ng-app directive is found then Angular will:
+- Load the module associated with the directive.
+- Create the application injector.
+- Compile the DOM starting from the ng-app root element.
+This process is called auto-bootstrapping.
+
+#### Manual Bootstrap Process
+You can manually initialized your angular app by using angular.bootstrap() function. This function takes the modules as parameters and should be called within angular.element(document).ready() function. The angular.element(document).ready() function is fired when the DOM is ready for manipulation.
+- You should not use the ng-app directive when manually bootstrapping your app.
+- You should not mix up the automatic and manual way of bootstrapping your app.
+- Define modules, controller, services etc. before manually bootstrapping your app as defined in above example.
