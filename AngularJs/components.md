@@ -28,10 +28,10 @@ angular.module('myApp', ['dependentModule1', 'dependentModule2']);
 AngularJS directives are a combination of AngularJS template markups (HTML attributes or elements, or CSS classes) and supporting JavaScript code. The JavaScript directive code defines the template data and behaviors of the HTML elements.
 
 Ways to invoke Directives:
-* Directive as Attribte: \<div ng-directive>\</div>
-* Directive as Class: \<div class="ng-directive: expression;">\</div>
-* Directive as Elements: \<ng-directive>\</div>
-* Directive as Comment: <!-- directive: ng-directive expression -->
+1 Directive as Attribte: \<div ng-directive>\</div>
+2 Directive as Class: \<div class="ng-directive: expression;">\</div>
+3 Directive as Elements: \<ng-directive>\</div>
+4 Directive as Comment: <!-- directive: ng-directive expression -->
 
 - ng-app
 - ng-init
