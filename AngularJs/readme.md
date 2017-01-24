@@ -8,7 +8,7 @@ View-Model: A viewmodel is an object that provides specific data and methods to 
 Controller: The controller defines the actual behavior of your app. It contains business logic for the view and connects the model to view with the help of $scope. A controller is associated with a HTML element with the ng-controller directive.
 ```
 
-#Modules
+# Modules
 AngularJS modules are containers which divide an angular app into small, reusable and functional components which can be integrated with other angular app. 
 Each module is identified by a unique name and can be dependent on other modules. In AngularJS, every web page (view) can have a single module assigned to it via ng-app directive.
 
@@ -73,3 +73,13 @@ You can manually initialized your angular app by using _angular.bootstrap()_ fun
 - You should not use the ng-app directive when manually bootstrapping your app.
 - You should not mix up the automatic and manual way of bootstrapping your app.
 - Define modules, controller, services etc. before manually bootstrapping your app as defined in above example.
+
+# Scopes
+Scope is a JavaScript object that refers to the application model. It acts as a context for evaluating angular expressions. Basically, it acts as glue between controller and view.
+Scopes are hierarchical in nature and follow the DOM structure of your AngularJS app. AngularJS has two scope objects: $rootScope and $scope.
+
+#### $scope
+A $scope is a JavaScript object which is used for communication between controller and view. Basically, $scope binds a view (DOM element) to the viewmodel and functions defined in a controller.
+
+#### $rootScope
+The $rootScope is the top-most scope. An app can have only one $rootScope which will be shared among all the components of an app. Hence it acts like a global variable. All other $scopes are children of the $rootScope.
