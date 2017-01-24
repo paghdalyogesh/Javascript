@@ -7,6 +7,12 @@ View: The View represents HTML and presentation of the data.
 View-Model: A viewmodel is an object that provides specific data and methods to maintain specific views. Basically, it is a $scope object which lives within your AngularJS app's controller. A viewmodel is associated with a HTML element with the ng-model and ng-bind directives.
 Controller: The controller defines the actual behavior of your app. It contains business logic for the view and connects the model to view with the help of $scope. A controller is associated with a HTML element with the ng-controller directive.
 ```
+[Expressions][https://github.com/shails21/Javascript/tree/master/AngularJs#expressions]
+[Bootstrapping][https://github.com/shails21/Javascript/tree/master/AngularJs#bootstrapping]
+[Scopes][https://github.com/shails21/Javascript/tree/master/AngularJs#scopes]
+[Inheritance][https://github.com/shails21/Javascript/tree/master/AngularJs#inheritance]
+[Events][https://github.com/shails21/Javascript/tree/master/AngularJs#events]
+
 
 # Expressions
 AngularJS expressions are much like JavaScript expressions, placed inside HTML templates by using double braces such as:
