@@ -56,12 +56,8 @@ A service is a reusable singleton object which is used to organize and share cod
 
 ## Methods to create a Service
  | Service | Factory | Provider | Value | Constant |
- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
- | A service is a constructor function which creates the object using new keyword. You can add properties and functions to a service object by using this keyword. Unlike factory, it doesn’t return anything. 
- | A factory is a simple function which allows you to add some logic before creating the object. It returns the created object. 
- | Provider 
- | Value 
- | Constant | 
+ | --- | --- | --- | --- | --- |
+ | A service is a constructor function which creates the object using new keyword. You can add properties and functions to a service object by using this keyword. Unlike factory, it doesn’t return anything. | A factory is a simple function which allows you to add some logic before creating the object. It returns the created object. | Provider | Value | Constant | 
 
 # Routing
 Rouuting is a mechanism which helps you to divide your single page application into multiple views and bind these views to corresponding controllers. An angular route is specified within the URL by using # sign and enables you to show a specific view. http://yourdomain.com/index.html#users
