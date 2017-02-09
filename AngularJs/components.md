@@ -55,7 +55,7 @@ A controller is associated with a HTML element with the ng-controller directive.
 A service is a reusable singleton object which is used to organize and share code across your app. A service can be injected into controllers, filters, directives. AngularJS offers several built-in services (like $http, $provide, $resource, $window, $parse) which always start with $ sign.
 
 ## Methods to create a Service
- |Service|Factory|Provider|Value|Constant|
+ | Service | Factory | Provider | Value | Constant |
 
 # Routing
 Rouuting is a mechanism which helps you to divide your single page application into multiple views and bind these views to corresponding controllers. An angular route is specified within the URL by using # sign and enables you to show a specific view. http://yourdomain.com/index.html#users
