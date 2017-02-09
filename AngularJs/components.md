@@ -55,9 +55,10 @@ A controller is associated with a HTML element with the ng-controller directive.
 A service is a reusable singleton object which is used to organize and share code across your app. A service can be injected into controllers, filters, directives. AngularJS offers several built-in services (like $http, $provide, $resource, $window, $parse) which always start with $ sign.
 
 ## Methods to create a Service
- | Service | Factory | Provider | Value | Constant |
- | --- | --- | --- | --- | --- |
- | A service is a constructor function which creates the object using new keyword. You can add properties and functions to a service object by using this keyword. Unlike factory, it doesn’t return anything. | A factory is a simple function which allows you to add some logic before creating the object. It returns the created object. | Provider | Value | Constant | 
+
+| Service | Factory | Provider | Value | Constant |
+|   ---   |   ---   |    ---   |  ---  |   ---    |
+| A service is a constructor function which creates the object using new keyword. You can add properties and functions to a service object by using this keyword. Unlike factory, it doesn’t return anything. | A factory is a simple function which allows you to add some logic before creating the object. It returns the created object. | A provider is used to create a configurable service object. It returns value by using $get() function. | A value can be a number, string, date-time, array or object. You can also register a function as a value. Values are typically used as configuration which is injected into factories, services or controllers. | A constant is like as value. The difference between a value and a constant service is that constant service can be injected into a module configuration function i.e. config() but value service cannot be. |
 
 # Routing
 Rouuting is a mechanism which helps you to divide your single page application into multiple views and bind these views to corresponding controllers. An angular route is specified within the URL by using # sign and enables you to show a specific view. http://yourdomain.com/index.html#users
