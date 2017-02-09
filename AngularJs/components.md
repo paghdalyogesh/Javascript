@@ -52,3 +52,41 @@ The controller contains business logic for the view and connects the model to vi
 A controller is associated with a HTML element with the ng-controller directive.
 
 # Services
+
+# Routing
+Rouuting is a mechanism which helps you to divide your single page application into multiple views and bind these views to corresponding controllers. An angular route is specified within the URL by using # sign and enables you to show a specific view. http://yourdomain.com/index.html#users
+
+## AngularJS Route Module
+The routing functionality is provided by the angular's ngRoute module, which is the part of angular-route.js JavaScript file. Hence, include angular-route.js file into your AngularJS application for using routing. 
+```
+var app = angular.module("app", ['ngRoute']);
+```
+
+## Configuring the $routeProvider
+The routes in your angular application are declared with the help of $routeProvider which is the provider of the $route service. The $routeProvider is configured in your app module's config() function.
+
+```
+<script>
+ appmodule.config(['$routeProvider',
+ function($routeProvider) {
+ $routeProvider.
+  when('/route1', {
+   templateUrl: 'template-1.html',
+   controller: 'RouteController1'
+  }).
+  when('/route2:param', {
+   templateUrl: 'template-2.html',
+   controller: 'RouteController2'
+  }).
+  otherwise({ // if no route paths matches
+  redirectTo: '/' 
+  });
+ }]);
+</script>
+ 
+<!-- And links should be defined as: -->
+ 
+<a href="#/route1">Route 1</a><br/>
+<a href="#/route2:123">Route 2</a><br/>
+```
+
