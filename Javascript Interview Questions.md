@@ -10,13 +10,18 @@ JavaScript is open and cross-platform.
 Yes! JavaScript is a case-sensitive language. This means that language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
 
 ### 3. What are the different types of Datatypes.
-Six data types that are primitives:
-Boolean.
-Null.
-Undefined.
-Number.
-String.
-Symbol (new in ECMAScript 6)
+- Primitive Data types: Predefined DT
+ - Boolean.
+ - Null.
+ - Undefined.
+ - Number.
+ - String.
+ - Symbol (new in ECMAScript 6)
+
+- Non-Primitive Data Types: 
+ - Object	
+ - Array	
+ - gExp	
 
 ### 4. What is the difference between UNDEFINED and NULL?
 UNDEFINED: Undefined means a variable has been declared but has not yet been assigned a value.Unassigned variables are initialized by JavaScript with a default value of undefined. 
@@ -128,3 +133,22 @@ You can use strings' split() function to break the string into key and values.
 
 ### 18. How does getTime works?
 getTime() returns the number of milliseconds since January 1, 1970.
+
+### 19. What is the use of window object?
+The window object is automatically created by the browser that represents a window of a browser.
+It is used to display the popup dialog box such as alert dialog box, confirm dialog box, input dialog box etc.
+
+### 20. What is the use of history object?
+The history object of browser can be used to switch to history pages such as back and forward from current page or another page. There are three methods of history object.
+- history.back()
+- history.forward()
+- history.go(number): number may be positive for forward, negative for backward. 
+
+### 21. What is the difference between == and ===?
+The == operator checks equality only whereas === checks equality and data type. 
+
+### 22 . Difference between Client side JavaScript and Server side JavaScript?
+- Client-Side JavaScript (CSJS) - an extended version of JavaScript that enables the enhancement and manipulation of web pages and client browsers. It is embedded directly by in the HTML pages. This script is interpreted by the browser at run time.
+- Server-Side JavaScript (SSJS) - an extended version of JavaScript that enables back-end access to databases, file systems, and servers
+- Core JavaScript -- the base JavaScript language
+
