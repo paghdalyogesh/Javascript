@@ -24,8 +24,8 @@ Yes! JavaScript is a case-sensitive language. This means that language keywords,
  - gExp	
 
 ### 4. What is the difference between UNDEFINED and NULL?
-UNDEFINED: Undefined means a variable has been declared but has not yet been assigned a value.Unassigned variables are initialized by JavaScript with a default value of undefined. 
-NULL: Null is an assignment value. It can be assigned to a variable as a representation of no value.Javascript never assignes a NULL value by default it has to be done programatically.
+- UNDEFINED: Undefined means a variable has been declared but has not yet been assigned a value.Unassigned variables are initialized by JavaScript with a default value of undefined. 
+- NULL: Null is an assignment value. It can be assigned to a variable as a representation of no value.Javascript never assignes a NULL value by default it has to be done programatically.
 
 
 ### 5. How can you create an Array in JavaScript?
@@ -152,3 +152,6 @@ The == operator checks equality only whereas === checks equality and data type.
 - Server-Side JavaScript (SSJS) - an extended version of JavaScript that enables back-end access to databases, file systems, and servers
 - Core JavaScript -- the base JavaScript language
 
+### 23. What is difference between View state and Session state?
+"View state" is specific to a page in a session.
+"Session state" is specific to a user or browser that can be accessed across all pages in the web application.
