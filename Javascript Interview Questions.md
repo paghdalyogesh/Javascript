@@ -125,3 +125,6 @@ Here expires attribute is option. If you provide this attribute with a valid dat
 You can use strings' split() function to break the string into key and values.
 
 - Delete a cookie cabn be achieved by setting an expiration time.
+
+### 18. How does getTime works?
+getTime() returns the number of milliseconds since January 1, 1970.
