@@ -1,4 +1,4 @@
-#### 1. Name some of the JavaScript features.
+### 1. Name some of the JavaScript features.
 Following are the features of JavaScript −
 JavaScript is a lightweight, interpreted programming language.
 JavaScript is designed for creating network-centric applications.
@@ -113,3 +113,15 @@ The typeof operator evaluates to "number", "string", or "boolean" if its operand
 | Host object (provided by the JS environment) | Implementation-dependent |
 | Function object (implements [[Call]] in ECMA-262 terms) | "function" |
 Any other object	"object"
+
+### 17. How to implement and access cookies in JS?
+- Create a cookie is assiging a string value to the document.cookie object, which looks like this −
+```
+document.cookie = "key1 = value1; key2 = value2; expires = date";
+```
+Here expires attribute is option. If you provide this attribute with a valid date or time then cookie will expire at the given date or time and after that cookies' value will not be accessible.
+
+- Reading a cookie is to read document.cookie which keep a list of name = value pairs separated by semicolons, where name is the name of a cookie and value is its string value.
+You can use strings' split() function to break the string into key and values.
+
+- Delete a cookie cabn be achieved by setting an expiration time.
