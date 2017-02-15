@@ -1,7 +1,7 @@
 Node and NPM versions
 ```
-node --version
-npm --version
+node -version
+npm -version
 ```
 
 To initiate NodeJs package.json
