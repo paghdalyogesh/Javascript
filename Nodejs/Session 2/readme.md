@@ -13,7 +13,11 @@ app.get('/', function (req, res) {
 })
 ```
 
-#### Nodemon restarts the server automatically
+#### 
 ```
-$ npm install nodemon --save-dev
+$ npm install express --save 
+$ npm install body-parser --save
+$ npm install cookie-parser --save
+$ npm install multer --save
+$ npm install nodemon --save-dev   //Nodemon restarts the server automatically
 ```
