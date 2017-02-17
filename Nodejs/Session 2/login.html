@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test App</title>
+	</head>
+	<body>
+	First Node Test
+		<form action="/addNewUser" method="POST">
+  			<input type="text" placeholder="name" name="name">
+  			<input type="password" placeholder="password" name="password">
+  			<button type="submit">Submit</button>
+		</form>
+
+		<input type="button" value="Get List" onclick="/addNewUser" />		<!--% if(user_list) {%>
+		<ul">
+  			<% for(var i=0; i<user_list.length; i++) {%>
+    		<li>
+		      <span><%= user_list[i] %></span>
+		    </li>
+  			<% } %>
+		</ul>
+		<% } %-->
+	</body>
+</html>
