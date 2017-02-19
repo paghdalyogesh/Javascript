@@ -35,9 +35,8 @@ app.get('/get*', function (req, res){
 	res.send('Hello Preg Match')
 })
 /* negative check
-app.get('/get*', function (req, res){
-	console.log("Get request from /get*");
-	res.send('Hello Preg Match')
+app.get('/*', function (req, res){
+	console.log("Get request from /*");
 })
 */
 var server = app.listen(8083, function (){

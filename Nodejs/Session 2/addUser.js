@@ -1,24 +1,26 @@
 var fs = require('fs');
 function add() {};
-var addUser = add.prototype;
+var addUserObject = add.prototype;
 
-addUser.add = function(res, res, callback){
-	var newuser = {
-		"userx": {
-    		"id" : 2000,
-    		"name" : "X User",
-    		"department" : "depx"
-  		},
-	}
-
-	fs.readFile("userdetail.json", "UTF8", function(err, data){
-		if(err){
-			callback(err);
+addUserObject.add = function(req, res, callback){
+	if(req.body){
+		var newuser = {
+			"userx": {
+	    		"id" : req.body.id,
+	    		"name" : req.body.name,
+	    		"department" : req.body.department
+	  		}
 		}
-			data = JSON.parse(data);
-			dataobject['userx'] = newuser['userx'];
-			console.log( dataobject );
-			callback(null, dataobject);
-	})
+
+		fs.readFile("userdetail.json", "utf8", function(err, data){
+			if(err){
+				console.log("0.3")
+				callback(err);
+			}
+			data = JSON.parse( data );
+			data['userx'] = newuser['userx'];
+			callback(null, data);
+		})
+	}
 }
-module.exports = addUser;
+module.exports = addUserObject;

@@ -4,25 +4,25 @@
     "name" : "Adam",
     "department" : "dep1"
   },
-  "user1": {
+  "user2": {
     "id" : 1050,
     "name" : "Steve",
     "department" : "dep2"
   },
-  "user1": {
+  "user3": {
     "id" : 1100,
     "name" : "Paul",
     "department" : "dep3"
   },
-  "user1": {
+  "user4": {
     "id" : 1150,
     "name" : "Remi",
     "department" : "dep4"
   },
-  "user1": {
+  "user5": {
     "id" : 1200,
     "name" : "Patrick",
     "department" : "dep5"
-  },
+  }
 }
 
