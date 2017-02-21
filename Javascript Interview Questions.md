@@ -1,10 +1,10 @@
 ### 1. Name some of the JavaScript features.
 Following are the features of JavaScript −
-JavaScript is a lightweight, interpreted programming language.
-JavaScript is designed for creating network-centric applications.
-JavaScript is complementary to and integrated with Java.
-JavaScript is is complementary to and integrated with HTML.
-JavaScript is open and cross-platform.
+- JavaScript is a lightweight, interpreted programming language.
+- JavaScript is designed for creating network-centric applications.
+- JavaScript is complementary to and integrated with Java.
+- JavaScript is is complementary to and integrated with HTML.
+- JavaScript is open and cross-platform.
 
 ### 2. Is JavaScript a case-sensitive language?
 Yes! JavaScript is a case-sensitive language. This means that language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
