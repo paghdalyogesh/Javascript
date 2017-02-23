@@ -32,4 +32,12 @@ showeBtn.addEventListener('click', function(event) {
 });
 ```
 
-Use caniuse.com to check browser API available in different browsers.
+Limitations/complexities of plain JS :
+- browser compatibilities
+Use caniuse.com to check browser compatibility.
+- too much code for simple-operations
+- performance issues (eg DOM manipulation )
+- memory management (cleaning unused DOm-elements, un registering event listner)
+- code organization is difficult
+
+
