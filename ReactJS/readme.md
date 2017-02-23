@@ -67,19 +67,23 @@ Difference between Library and Framework:
 Webpack Module Bundler 
 -- npm install --save-dev webpack (Local)
 -- npm install -g webpack (Global)
+-- webpack
+-- webpack --watch
+-- Update package.json
+"script":{ "build":"webpack --watch"},
 
 ### .js Module standards from third parties
 - AMD(Async Module Definition=>AMD module wiki) {require.js}
--- define: ==>define('mid',[],factory)
--- load/require module: ==>require(config,[], callback);
+ - define: ==>define('mid',[],factory)
+ - load/require module: ==>require(config,[], callback);
 
 - commonJs standards
--- Simple approach to define module
--- every .js file is module by default
--- all variable/func in .js are private to that module by default
--- to abstract any member to other module, use 'module.exports'
--- to require any member, use 'require(module)'
--- we can group related modules in package
+ - Simple approach to define module
+ - every .js file is module by default
+ - all variable/func in .js are private to that module by default
+ - to abstract any member to other module, use 'module.exports'
+ - to require any member, use 'require(module)'
+ - we can group related modules in package
 * imp-note :Node.js runtime uses commonJs as default module standard
 
 browserify: npm install browserify
@@ -93,3 +97,7 @@ browserify app.js -o bundle.js
 React -> View Library -> View Componenets : from facebook
 
 
+
+## ECMAScript 2015 or ES6
+#### ES6 modules
+AMD or commonjS 
