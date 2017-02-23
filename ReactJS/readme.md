@@ -30,3 +30,6 @@ hideBtn.addEventListener('click', function(event) {
 showeBtn.addEventListener('click', function(event) { 
   box.style.siaplay='';
 });
+```
+
+Use caniuse.com to check browser API available in different browsers.
