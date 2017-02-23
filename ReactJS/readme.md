@@ -69,8 +69,8 @@ Webpack Module Bundler
 
 ### .js Module standards from third parties
 1. AMD(Async Module Loader=>AMD module wiki) {require.js}
-- define: ==>define('mid',[],factory)
-- load/require module: ==>require(config,[], callback);
+* define: ==>define('mid',[],factory)
+* load/require module: ==>require(config,[], callback);
 
 2. commonJs standards
 - Simple approach to define module
