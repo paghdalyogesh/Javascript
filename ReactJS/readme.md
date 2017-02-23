@@ -68,21 +68,24 @@ Webpack Module Bundler
 -- npm install -g webpack (Global)
 
 ### .js Module standards from third parties
-1. AMD(Async Module Loader=>AMD module wiki) {require.js}
-* define: ==>define('mid',[],factory)
-* load/require module: ==>require(config,[], callback);
+- AMD(Async Module Loader=>AMD module wiki) {require.js}
+-- define: ==>define('mid',[],factory)
+-- load/require module: ==>require(config,[], callback);
 
-2. commonJs standards
-- Simple approach to define module
-- every .js file is module by default
-- all variable/func in .js are private to that module by default
-- to abstract any member to other module, use 'module.exports'
-- to require any member, use 'require(module)'
-- we can group related modules in package
+- commonJs standards
+-- Simple approach to define module
+-- every .js file is module by default
+-- all variable/func in .js are private to that module by default
+-- to abstract any member to other module, use 'module.exports'
+-- to require any member, use 'require(module)'
+-- we can group related modules in package
 * imp-note :Node.js runtime uses commonJs as default module standard
 
-3. SystemJs(Out of scope)
-4. UMD(Out of scope)
+browserify: npm install browserify
+browserify app.js -o bundle.js
+
+- SystemJs(Out of scope)
+- UMD(Out of scope)
 
 # Frameworks
 -------------------------------------
