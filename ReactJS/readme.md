@@ -32,12 +32,60 @@ showeBtn.addEventListener('click', function(event) {
 });
 ```
 
-Limitations/complexities of plain JS :
+## Limitations/complexities of plain JS :
 - browser compatibilities
 Use caniuse.com to check browser compatibility.
 - too much code for simple-operations
 - performance issues (eg DOM manipulation )
 - memory management (cleaning unused DOm-elements, un registering event listner)
 - code organization is difficult
+
+### Solution: using .js libraries and frameworks
+Difference between Library and Framework:
+- Library: call functions to achieve functionality. No pre-organized code.
+- Framework: write own function.Pre organzied code.
+
+## Limitations of Jquery:
+- Close to DOM
+- View, Logic and Data together 
+- Developing re-usable component is difficult
+- code organization is difficult
+- data-binding difficult
+
+## Build tools:
+### What is the use:
+- Combining Files
+- Minified
+- Maintaining File Order
+- Transpilation(kangax.github.io/compat-table/es6/)
+- Linting(JScode quality check)
+
+### Tools:
+-- Server-Side Tools(ASP.Net, Rails etc)
+-- Task Runners()
+Webpack Module Bundler 
+-- npm install --save-dev webpack (Local)
+-- npm install -g webpack (Global)
+
+### .js Module standards from third parties
+1. AMD(Async Module Loader=>AMD module wiki) {require.js}
+-- define: ==>define('mid',[],factory)
+-- load/require module: ==>require(config,[], callback);
+
+2. commonJs standards
+-- Simple approach to define module
+-- every .js file is module by default
+-- all variable/func in .js are private to that module by default
+-- to abstract any member to other module, use 'module.exports'
+-- to require any member, use 'require(module)'
+-- we can group related modules in package
+- imp-note :Node.js runtime uses commonJs as default module standard
+
+3. SystemJs(Out of scope)
+4. UMD(Out of scope)
+
+# Frameworks
+-------------------------------------
+React -> View Library -> View Componenets : from facebook
 
 
