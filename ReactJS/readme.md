@@ -69,7 +69,7 @@ Webpack Module Bundler
 -- npm install -g webpack (Global)
 
 ### .js Module standards from third parties
-- AMD(Async Module Loader=>AMD module wiki) {require.js}
+- AMD(Async Module Definition=>AMD module wiki) {require.js}
 -- define: ==>define('mid',[],factory)
 -- load/require module: ==>require(config,[], callback);
 
