@@ -65,8 +65,9 @@ Difference between Library and Framework:
 -- Server-Side Tools(ASP.Net, Rails etc)
 -- Task Runners()
 Webpack Module Bundler 
--- npm install --save-dev webpack (Local)
--- npm install -g webpack (Global)
+-- npm install webpack --save-dev (Local)
+-- npm install webpack-dev-server --save-dev (Local)
+-- npm install webpack -g (Global)
 -- webpack
 -- webpack --watch
 -- Update package.json
