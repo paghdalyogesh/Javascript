@@ -108,6 +108,7 @@ React -> View Library -> View Componenets : from facebook
 AMD or commonjS 
 
 # REACT
+https://reacttraining.com/
 ### TODO Example
 ToDo: todomvc-app-css (https://npmjs.com/package/todomvc-app-css)
 
