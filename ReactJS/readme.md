@@ -114,3 +114,8 @@ ToDo: todomvc-app-css (https://npmjs.com/package/todomvc-app-css)
 
 ### React Routing
 https://www.npmjs.com/package/react-router
+
+#### FLUX Design Pattern
+##### 
+2 Way data Binding vs Unidirectional Data flow
+https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.t5hrp5e32
