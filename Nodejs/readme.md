@@ -16,3 +16,20 @@
 Its advisible to not use Node for CPU intensive applications.
 
 Website: www.npmjs.com/package
+
+
+## Loop back
+https://loopback.io/
+$ npm install -g loopback-cli
+
+#### Get Productive Fast
+LoopBack lets developers focus on business logic and user experience by making it easy to design, test and auto-generate the code for their APIs.
+
+#### Enterprise-Ready
+LoopBack is a mature framework that makes it easy to start implementing API design best practices that conform to popular specifications.
+
+#### Data Integration Made Easy
+LoopBack makes it easy to connect to new and legacy data in Oracle, SQL Server, MongoDB and MySQL, plus handle complex relationship mapping between them with robust ORM features.
+
+#### Extensible
+LoopBack is open source and extensible by design. Take advantage of over 100 StrongLoop supported npm modules compatible with LoopBack or integrate your own modules to increase the framework’s feature set.
